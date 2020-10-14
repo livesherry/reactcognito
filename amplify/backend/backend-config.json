@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"alertsappe72160ed": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

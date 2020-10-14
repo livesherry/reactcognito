@@ -1,0 +1,91 @@
+.white-text{
+    color: #ffffff;
+}
+
+.footer-icons, .footer-icons a{
+    color: #ffffff;
+    padding: 1% 5%;
+    font-size: 24px;
+}
+
+.login-form {
+    padding: 2%;
+    max-width: 500px;
+    border: 1px solid #999898;
+    border-top: 50px solid #999898;
+    margin: 4% auto;
+}
+
+.login-form button {
+    width: 100%;
+}
+
+.signup-form {
+    padding: 2%;
+    max-width: 500px;
+    border: 1px solid #999898;
+    border-top: 50px solid #999898;
+    margin: 2% auto;
+    margin-bottom: 150px;
+}
+
+.signup-form button {
+    width: 100%;
+}
+
+.signup-form sup{
+    color: red;
+}
+
+.need-account {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dashboard {
+    padding: 2%;
+    max-width: 700px;
+    margin: 2% auto;
+}
+
+.create-button {
+    /* position: fixed; */
+    /* bottom: 120px; */
+    /* left: 45%; */
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-height: 100px;
+}
+
+.update-form {
+    padding: 2%;
+    max-width: 500px;
+    margin: 2% auto;
+}
+
+.update-form button {
+    margin: 2px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .footer-icons-container{
+        text-align: center;
+    }
+    .main{
+        width: fit-content;
+    }
+    .footer{
+        position: relative;
+    }
+  }
